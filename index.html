@@ -20,7 +20,7 @@
         <button @click="generateEmail">Genera Email</button>
         <p v-if="isLoading">Loading...</p>
         <ul>
-            <li v-for="emails in emailsArray"> {{ emails }} </li>
+            <li v-for="email in emailsArray" v-if="emailsArray.length == 10"> {{ email }} </li>
         </ul>
     </div>
 
