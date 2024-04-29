@@ -20,7 +20,10 @@
 
 <body>
     <div id="app">
-
+        <button @click="generateEmail">Genera emails casuali</button>
+        <ul>
+            <li v-for="emails in emailsArray"> {{ emails }}</li>
+        </ul>
     </div>
 
     <!-- script -->
