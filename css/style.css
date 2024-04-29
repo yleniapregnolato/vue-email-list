@@ -6,7 +6,7 @@
 
 h1 {
     margin-bottom: 10px;
-    color:tomato
+    color: tomato
 }
 
 button {
@@ -14,6 +14,8 @@ button {
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: rgba(255, 99, 71, 0.3);
+    color: tomato;
 }
 #app {
     margin-left: 20px;
