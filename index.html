@@ -20,6 +20,9 @@
 
 <body>
     <div id="app">
+        <h1>Random Emails</h1>
+        <button @click="generateEmail">Genera Email</button>
+        <p v-if="isLoading">Loading...</p>
         <ul>
             <li v-for="emails in emailsArray"> {{ emails }} </li>
         </ul>
